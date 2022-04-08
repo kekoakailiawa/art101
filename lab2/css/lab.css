@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  font-size: 200%;
+}
+
+p {
+  font-family: "Arial";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#morning {
+  background-color: lightyellow;
+  margin: 15px;
+  border: dashed 2px black;
+  width: 400px;
+  min-height: 250px;
+  padding: 10px;
+}
+
+img {
+  width: 500px;
+}
