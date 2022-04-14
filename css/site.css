@@ -1,3 +1,7 @@
+body {
+  background-color: lightgreen
+}
+
 h1 {
   color: blue;
   font-size: 200%;
@@ -11,7 +15,7 @@ p {
 
 #introduction {
   background-color: lightblue;
-  margin: 15px;
+  margin: 2px;
   border: dashed 2px black;
   width: 400px;
   min-height: 250px;
