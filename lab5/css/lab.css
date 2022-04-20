@@ -1,0 +1,19 @@
+body {
+  background-color: lightblue;
+}
+
+#content {
+  background-color: dodgerblue;
+  font-family:"Helvetica Neue", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  border: solid 2px black;
+  border-width: medium;
+  padding: 50px;
+  margin: 20px
+}
+
+
+img {
+  width: 350px
+}
