@@ -1,0 +1,24 @@
+.sectionbox1{
+  color: red;
+
+}
+.sectionbox2{
+  color: blue;
+}
+.sectionbox3{
+  color: white;
+}
+body {
+  background-color: #9B2335;
+}
+
+#content {
+  background-color: olive;
+  font-family:"Lucida Console", "Courier New", monospace;
+  font-style: bold;
+  font-weight: normal;
+  border: solid 2px black;
+  border-width: medium;
+  padding: 50px;
+  margin: 20px
+}
