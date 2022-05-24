@@ -1,0 +1,14 @@
+body {
+  background-color: red;
+}
+
+#content {
+  background-color: lightblue;
+  font-family:"Lucida Console", "Courier New", monospace;
+  font-style: bold;
+  font-weight: normal;
+  border: solid 2px black;
+  border-width: medium;
+  padding: 50px;
+  margin: 20px
+}
