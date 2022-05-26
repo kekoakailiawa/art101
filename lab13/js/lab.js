@@ -37,7 +37,7 @@ function fizzBuzzBoom () {
     } else {
           console.log(i);
       $("#output").append("<p>" + i + "</p>")
-      }
+    }
   }
 }
 fizzBuzzBoom();
