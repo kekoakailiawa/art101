@@ -4,9 +4,8 @@
  * License:   Public Domain
 */
 
-// get Ajax function
 var endpoint = "https://breakingbadapi.com/api/character/random";
-
+//function get AJAX
 function getAjax() {
 	$.ajax({
   	url: endpoint,
@@ -15,20 +14,25 @@ function getAjax() {
     }
   })
   .done(function(data){
+		//console.log function
   	console.log("Worked!");
-    var firstBB = data[0];
-    console.log(firstBB);
-    var title = firstBB.name;
-    var descr = firstBB.occupation;
-    var imgUrl = firstBB.img;
-    console.log(title, descr, imgUrl);
-  	$("#output").html("<h2>" + title + "</h2>");
+		//console.log data
+    var charBB = data[0];
+    console.log(charBB);
+		//input data from JSON and console.log it
+    var title = charBB.name;
+    var alt = charBB.occupation;
+    var imgUrl = charBB.img;
+    console.log(title, alt, imgUrl);
+		//jquery append
+  	$("#output").html("<h3>" + title + "</h3>");
   	$("#output").append("<img src=" + imgUrl + ">");
-  	$("#output").append("<h4>" + descr + "</h4>");
+  	$("#output").append("<h4>" + alt + "</h4>");
   })
+	//fail alert in console if needed
   .fail(function(request, error){
-  	$("#output").html("Something fucked up.");
+  	$("#output").html("ERROR.");
   })
 }
-
+//create button
 $("button").click(getAjax);
